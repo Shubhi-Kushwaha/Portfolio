@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#intro{
+    height: 40%;
+    width: 100%;
+    padding: 70px 55px;
+   
+}
+#intro h1{
+    letter-spacing: -3px;
+    font-size: 60px;
+    line-height: 60px;
+}
+#place{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+#mainimg{
+    height: 80%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: url(img1.jpeg);
+    background-size: cover;
+    background-position: center;
+   background-position: 20% 32%;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+} 
+#about h2{
+    width: 60%;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-weight: 550;
+}  
+#about-part2{
+    width: 36%;
+    height: 100%;
+    padding: 10px 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#about-part2 h3{
+    font-size: 23px;
+}
+#icons i{
+    background-color: black;
+    color: #fff;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+#work{
+    height:55%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#work1 h3{
+    font-size: 23px;
+}
+#work1 i{
+    font-size: 23px;
+    padding-right: 30px;
+}
+#work2{
+    width: 70%;
+    height: 100%;
+    padding: 0px  50px;
+}
+.work2-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px 0px;
+}
+.work2-p:nth-child(1){
+    border-bottom: 2px solid black;
+    padding:  20px 20px;
+}
+.work2-p:nth-child(2){
+    padding:  30px 20px;
+}
+.work2-p.elem{
+    width: 50%;
+    height: 100%;
+
+}
+.work2-p .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 50px;
+   
+}
+.work2-p .elem:nth-child(2){
+    padding-left: 50px;
+}
+.work2-p .elem h4{
+    font-size:30px;
+}
+.work2-p .elem p{
+    font-size:15px;
+}     
+
